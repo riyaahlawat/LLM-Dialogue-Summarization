@@ -6,7 +6,7 @@ This repository focuses on enhancing the dialogue summarization capabilities of 
 2. **Fine-Tuning vs PEFT (LoRA) for Dialogue Summarization**: Reducing computational overhead while improving summarization performance by comparing standard fine-tuning with Parameter-Efficient Fine-Tuning (PEFT) using LoRA.
 3. **RLHF (PPO) for Reducing Toxicity in Summaries**: Applying Reinforcement Learning with Human Feedback (RLHF) using Proximal Policy Optimization (PPO) to reduce the toxicity of the generated summaries.
 
-## Evaluation Metrics
+### Evaluation Metrics
 
 To ensure the generated summaries are both high-quality and aligned with desired ethical standards, we utilize the following evaluation metrics:
 
@@ -16,6 +16,6 @@ To ensure the generated summaries are both high-quality and aligned with desired
 
 These metrics are crucial for evaluating the improvements introduced through PEFT with LoRA and RLHF with PPO, as they allow us to quantify not only the accuracy but also the ethical impact of the summaries produced by the model.
 
+All experiments were conducted using Amazon SageMaker to ensure sufficient access to GPU and RAM resources, enabling efficient processing and model training.
+
 So, this version reflects our approach to improving dialogue summarization by enhancing performance, reducing compute, and minimizing toxicity.
-
-
